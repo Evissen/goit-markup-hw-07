@@ -249,20 +249,6 @@ img {
   fill: var(--accent-color);
 }
 
-.modal-btn {
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: transparent;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .modal-form {
   display: flex;
   flex-direction: column;
@@ -336,30 +322,6 @@ img {
   color: rgba(177, 117, 117, 0.5);
 }
 
-.modal-form-button {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  text-align: center;
-  background-color: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: 1px solid var(--accent-color);
-  color: #ffffff;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 10px 55px 10px 56px;
-  margin: 0 auto;
-  display: flex;
-}
-
-.modal-form-button:hover,
-.modal-form-button:focus {
-  background-color: #188ce8;
-}
-
 .modal-form-icon {
   position: absolute;
   top: 50%;
@@ -399,7 +361,7 @@ img {
 }
 
 .accept-policy-contract {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
@@ -411,6 +373,43 @@ img {
 
 .modal-form-checkbox:focus + .modal-form-checkbox-label::before {
   outline: 0.5px solid black;
+}
+
+.modal-form-button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 1px solid var(--accent-color);
+  color: #ffffff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 10px 55px 10px 56px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.modal-form-button:hover,
+.modal-form-button:focus {
+  background-color: #188ce8;
+}
+
+.modal-btn {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header {
