@@ -11,9 +11,8 @@
     &:focus {
         background-color: var(--accent-color);
     }
-}
-
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
-    fill: #ffffff;
+    &:hover .social-icon,
+    &:focus .social-icon {
+        fill: #ffffff;
+    }
 }

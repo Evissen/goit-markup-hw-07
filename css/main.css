@@ -730,6 +730,10 @@ img {
   margin-bottom: 30px;
 }
 
+.portfolio-main-title:hover .portfolio-focus-text {
+  transform: translateY(0);
+}
+
 .portfolio-frame {
   padding: 20px 24px;
   background: #ffffff;
@@ -763,10 +767,6 @@ img {
 .portfolio-item-wrap {
   position: relative;
   overflow: hidden;
-}
-
-.portfolio-main-title:hover .portfolio-focus-text {
-  transform: translateY(0);
 }
 
 .footer {
@@ -814,6 +814,10 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-mail:hover, .footer-mail:focus {
+  color: var(--accent-color);
+}
+
 .footer-tele {
   font-size: 14px;
   font-weight: normal;
@@ -821,6 +825,10 @@ img {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-tele:hover, .footer-tele:focus {
+  color: var(--accent-color);
 }
 
 .footer-logo {
@@ -840,13 +848,6 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
-}
-
-.footer-tele:hover,
-.footer-tele:focus,
-.footer-mail:hover,
-.footer-mail:focus {
-  color: var(--accent-color);
 }
 
 .footer-mailing {
