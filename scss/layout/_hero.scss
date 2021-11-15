@@ -14,9 +14,7 @@
     background-size: cover;
 }
 .hero-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    @include font(44px, 900, 1.36);
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -25,9 +23,7 @@
     margin: 0 auto;
 }
 .hero-text {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.87;
+    @include font(16px, bold, 1.87);
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--primary-white-color);

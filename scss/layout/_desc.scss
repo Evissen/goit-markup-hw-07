@@ -8,9 +8,7 @@
     margin-right: 30px;
 }
 .desc-title {
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.17;
+    @include font(36px, bold, 1.17);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
@@ -21,9 +19,7 @@
     background-color: #ffffff;
 }
 .desc-text {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.19;
+    @include font(16px, normal, 1.19);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
@@ -31,9 +27,7 @@
     margin-bottom: 16px;
 }
 .desc-title-text {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
+    @include font(16px, 500, 1.19);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
@@ -53,9 +47,7 @@
     position: relative;
 }
 .desc-text-img {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+    @include font(14px, 500, 1.14);
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;

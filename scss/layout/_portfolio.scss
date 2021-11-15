@@ -1,23 +1,17 @@
 .portfolio-title {
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 2;
+    @include font(18px, bold, 2);
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
 }
 .portfolio-title-text {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.87;
+    @include font(16px, normal, 1.87);
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
 
 .portfolio-btn {
+    @include font(16px, 500, 1.62);
     font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     padding: 6px 22px;
@@ -70,11 +64,7 @@
     }
 }
 .portfolio-focus-text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 1.56;
+    @include font(18px, normal, 1.56);
     letter-spacing: 0.03em;
     position: absolute;
     top: 0;

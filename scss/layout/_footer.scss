@@ -9,10 +9,7 @@
     margin-left: 70px;
 }
 .footer-join-title {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    @include font(14px, 500, 1.14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #ffffff;
@@ -23,36 +20,28 @@
     justify-content: center;
 }
 .footer-address {
+    @include font(14px, normal, 1.71);
     font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
     letter-spacing: 0.03em;
     margin-top: 20px;
 }
 .footer-mail {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
+    @include font(14px, normal, 1.71);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-tele {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
+    @include font(14px, normal, 1.71);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-logo {
+    @include font(26px, bold, 1.19);
     font-family: 'Raleway';
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
     display: flex;
@@ -80,11 +69,7 @@
 }
 
 .footer-mailing-text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.14;
+    @include font(14px, bold, 1.14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #ffffff;
@@ -92,34 +77,27 @@
 }
 
 .footer-mailing-email {
+    @include font(16px, normal, 1.25);
     resize: none;
     background-color: transparent;
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     padding: 10px;
     color: #ffffff;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.25;
     letter-spacing: 0.03em;
 }
 
 .footer-subscribe-button {
+    @include font(16px, bold, 1.87);
     padding: 10px 28px 10px 29px;
     margin-left: 12px;
     height: 50px;
     background-color: var(--accent-color);
     border: solid var(--accent-color);
     color: #ffffff;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.87;
     text-align: center;
     letter-spacing: 0.06em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);

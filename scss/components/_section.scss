@@ -14,19 +14,15 @@
     align-items: center;
 }
 .section-title {
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.14;
+    @include font(14px, bold, 1.14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-text-color);
     margin-top: 30px;
 }
 .section-text {
+    @include font(14px, normal, 1.71);
     margin-top: 10px;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
